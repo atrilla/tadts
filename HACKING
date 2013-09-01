@@ -1,0 +1,74 @@
+TADTs Hacking
+=============
+
+The organization of this source code distribution of TADTs is shown as 
+follows:
+
++ tadts/
+    + build/
+    + ChangeLog
+    + CHANGES
+    + config/
+    + COPYING
+    + CREDITS
+    + dist/
+    + doc/
+    + HACKING
+    + include/
+    + INSTALL
+    + Makefile
+    + README
+    + src/
+    + test/
+
+
+The elements listed above are described in the following lines.
+
+>> tadts/
+This is the root directory of the TADTs project.
+
+>> build/
+Generated object code binaries.
+
+>> ChangeLog
+Registry of source changes.
+
+>> CHANGES
+Records the main changes applied to TADTs between version releases.
+
+>> config/
+Configuration files (e.g., for the doc generation tool).
+
+>> COPYING
+Describes the rights granted with this source code distribution of TADTs.
+
+>> CREDITS
+References all the projects used in TADTs.
+
+>> dist/
+Contains the built library.
+
+>> doc/
+Generated documentation in HTML format.
+
+>> HACKING
+Describes every element contained in the root folder.
+
+>> include/
+Source headers.
+
+>> INSTALL
+Compilation process.
+
+>> Makefile
+Build process instructions to be conducted by GNU Make.
+
+>> README
+General description of TADTs.
+
+>> src/
+Source code files.
+
+>> test/
+Sources of the tests.
+

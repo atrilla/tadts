@@ -1,0 +1,14 @@
+TADTs Install
+=============
+
+This INSTALL file explains the compilation process that has to be 
+carried out in order to obtain a binary library distribution of TADTs.
+
+Build tool of use: GNU Make.
+
+Tools: GCC, Doxygen
+
+Binaries (library and tests): make
+Documentation: make doc
+Cleaning: make clean
+

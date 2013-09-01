@@ -1,0 +1,80 @@
+01-Sep-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * test/TestGraph.c: creation.
+
+    * src/ADT_Graph.c (all): list iteration.
+
+
+22-Aug-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * src/ADT_List.c (Delete): free List struct. Memory leak solved.
+
+
+21-Aug-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * src/ADT_Graph.c (Neighbors, AddNode, AddEdge): implemented.
+
+
+18-Aug-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/ADT_Dict.h (GetKeys): creation.
+    * src/ADT_Dict.c
+
+    * include/ADT_Graph.h (GetNeighbors): node ID copies, sensible list
+        used.
+    * src/ADT_Graph.c (Delete, Adjacent): implemented.
+
+
+15-Aug-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * src/ADT_Graph.c: creation.
+
+
+02-Aug-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/ADT_Graph.h: creation.
+
+
+25-Jul-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * src/ADT_Dict.c (Delete, Insert, Lookup): implemented.
+    * include/ADT_Dict.h (Insert): redefined to key-val binding.
+    * include/ADT_Dict.h (Delete): dict pointer.
+
+
+22-Jul-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/ADT_Dict.h: creation.
+    * src/ADT_Dict.c: creation. Only creator defined.
+
+
+19-Jul-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * test/TestList.c: Ordered simple test.
+
+
+20-Jun-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * test/TestList.c: creation. Simple test. No POUTing yet.
+
+
+17-Jun-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/ADT_List.h (all): typedef structs.
+    * src/ADT_List.c
+
+    * include/ADT_List.h (GetFront, GetBack, GetNext): getters.
+    * src/ADT_List.c
+
+
+14-Jun-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/ADT_List.h: remove list interest point (plus iteration).
+    * src/ADT_List.c
+
+
+13-Jun-2013  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/ADT_List.h: list iface.
+    * src/ADT_List.c
+
